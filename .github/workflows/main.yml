@@ -38,7 +38,42 @@ jobs:
         git config --global user.email "695999620@qq.com"
         git config --global user.name "yizhichangyuan"
         mkdir -p ~/.ssh/
-        echo "$DEPLOY_KEY" > ~/.ssh/id_rsa 
+        echo "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" > ~/.ssh/id_rsa 
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
         ssh -T git@github.com
