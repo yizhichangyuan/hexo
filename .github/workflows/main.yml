@@ -35,14 +35,6 @@ jobs:
         npm install hexo-cli -g
         npm install yuque-hexo -g
         npm install
-        git rm -rf --cached .deploy_git
-        git rm -rf --cached blog-photo
-        git config --global user.email "695999620@qq.com"
-        git config --global user.name "yizhichangyuan"
-        mkdir -p ~/.ssh/
-        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan github.com >> ~/.ssh/known_hosts
         npm run start
         
     # from https://github.com/peaceiris/actions-gh-pages
