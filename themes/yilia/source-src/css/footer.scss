@@ -1,0 +1,19 @@
+#footer {
+	font-size: 12px;
+	font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+	text-shadow: 0 1px #fff;
+	position: absolute;
+	margin-bottom: 10px;
+	opacity: 0.6;
+	width: 100%;
+	text-align: center;
+	.outer{
+		padding: 0px 20px;
+	}
+}
+.footer-left{
+  float: left;
+}
+.footer-right{
+  float: right;
+}
