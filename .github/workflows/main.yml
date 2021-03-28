@@ -37,6 +37,7 @@ jobs:
         git config --global user.email "695999620@qq.com"
         git config --global user.name "yizhichangyuan"
         git rm -rf --cached .deploy_git
+        ssh -T git@github.com
         npm run start
         
     # from https://github.com/peaceiris/actions-gh-pages
