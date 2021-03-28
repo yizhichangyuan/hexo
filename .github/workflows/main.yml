@@ -43,7 +43,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.SSH_PRIVATE_KEY }}
-        external_repository: yizhichangyuan/yizhichangyuan.github.io
+        external_repository: yizhichangyuan/hexo
         publish_branch: master
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
