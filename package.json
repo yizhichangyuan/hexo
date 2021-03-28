@@ -3,12 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "deploy": "hexo clean && hexo g -d",
     "start": "yuque-hexo clean && yuque-hexo sync && hexo clean && hexo generate",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
+    "clean:yuque": "yuque-hexo clean",
+    "deploy": "yuque-hexo sync && hexo deploy",
+    "publish": "npm run clean && npm run deploy",
+    "dev": "hexo s",
+    "sync": "yuque-hexo sync",
+    "reset": "npm run clean:yuque && npm run sync"
   },
   "hexo": {
     "version": "5.3.0"
@@ -29,5 +34,13 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-landscape": "^0.0.3",
     "hexo-wordcount": "^6.0.1"
+  },
+  "yuqueConfig": {
+    "baseUrl": "https://www.yuque.com/api/v2",
+    "login": "yizhichangyuan",
+    "repo": "dbel9v"
+  },
+  "devDependencies": {
+    "yuque-hexo": "^1.6.0"
   }
 }
