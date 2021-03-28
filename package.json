@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "hexo clean && hexo generate && hexo deploy",
+    "start": "sudo hexo clean && sudo hexo g && sudo gulp && sudo hexo d",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
