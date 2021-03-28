@@ -36,7 +36,7 @@ jobs:
         npm install yuque-hexo -g
         npm install
         git rm -rf --cached .deploy_git
-        git rm -rf --cached blog_photo
+        git rm -rf --cached blog-photo
         npm run start
         
     # from https://github.com/peaceiris/actions-gh-pages
