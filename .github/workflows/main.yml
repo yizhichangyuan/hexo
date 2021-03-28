@@ -37,6 +37,8 @@ jobs:
         npm install
         git rm -rf --cached .deploy_git
         git rm -rf --cached blog-photo
+        git config --global user.email "695999620@qq.com"
+        git config --global user.name "yizhichangyuan"
         npm run start
         
     # from https://github.com/peaceiris/actions-gh-pages
