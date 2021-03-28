@@ -34,6 +34,8 @@ jobs:
         npm install hexo-cli -g
         npm install yuque-hexo -g
         npm install
+        git config --global user.email "695999620@qq.com"
+        git config --global user.name "yizhichangyuan"
         git rm -rf --cached .deploy_git
         npm run start
         
