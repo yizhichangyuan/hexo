@@ -31,5 +31,38 @@
             "url": "https://yizhichangyuan.github.io"
         },
         "place": "China"
+    },
+    {
+        "thumbnail": "https://doermail-product.oss-cn-beijing.aliyuncs.com/photography/FullSizeRender%202.jpg",
+        "photo": "https://doermail-product.oss-cn-beijing.aliyuncs.com/photography/FullSizeRender%202.jpg",
+        "title": "蓝天",
+        "icon": {
+            "name": "unsplash",
+            "type": "logo",
+            "url": "https://yizhichangyuan.github.io"
+        },
+        "place": "China"
+    },
+    {
+        "thumbnail": "https://doermail-product.oss-cn-beijing.aliyuncs.com/photography/IMG_5188.JPG",
+        "photo": "https://doermail-product.oss-cn-beijing.aliyuncs.com/photography/IMG_5188.JPG",
+        "title": "花枝招展",
+        "icon": {
+            "name": "unsplash",
+            "type": "logo",
+            "url": "https://yizhichangyuan.github.io"
+        },
+        "place": "China"
+    },
+    {
+        "thumbnail": "https://doermail-product.oss-cn-beijing.aliyuncs.com/photography/image%203.jpg",
+        "photo": "https://doermail-product.oss-cn-beijing.aliyuncs.com/photography/image%203.jpg",
+        "title": "校园",
+        "icon": {
+            "name": "unsplash",
+            "type": "logo",
+            "url": "https://yizhichangyuan.github.io"
+        },
+        "place": "China"
     }
 ]
