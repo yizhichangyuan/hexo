@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: Asia/Shanghai
+      HEXO_ALGOLIA_INDEXING_KEY: 10dfe51be69398eb1539efaec2f7a61c
 
     steps:
     # check it to your workflow can access it

@@ -11,6 +11,78 @@ author: 一止长渊
 language: en
 timezone: ''
 
+# logo
+aomori_logo: /images/self-photo.jpeg
+
+# 站点标题动画
+aomori_logo_typed_animated: true
+
+# 头部菜单
+aomori_menu:
+  首页: /
+  存档: /archives
+  摄影: /photography
+
+aomori_widgets:
+  - toc # 文章导航
+  - category  #文章分类
+  - tag # 文章标签
+  - recent_posts  # 最新文章
+  - archive #文章归档
+
+# 知识共享使用许可
+aomori_copyright: true # or false
+
+# 社交媒体
+aomori_social:
+  -
+    icon: github
+    type: logo
+    url: https://github.com/yizhichangyuan
+  -
+    icon: instagram
+    type: logo
+    url: https://weibo.com/5827404079/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
+  -
+    icon: unsplash
+    type: logo
+    url: https://unsplash.com/@yizhichangyuan
+    
+# 百度链接提交
+aomori_baidu_sitepush: true  # or false
+
+# 百度统计
+aomori_baidu_analytics: ''
+
+# Google统计
+aomori_google_analytics: 'UA-XXXXX-X'
+
+# google站点验证
+aomori_google_site:
+  enable: true
+  id: yizhichangyuan
+
+# 不蒜子统计
+aomori_busuanzi: true
+
+# 评论 Gitalk
+aomori_gitalk:
+  enable: true
+  ClientID: 'a40183824efdd889e8bd'
+  ClientSecret: '45d0d18823e835101990e4fb215272fc05321fa2' 
+  repo: 'blog-comments'
+  owner: yizhichangyuan 
+  admin: 
+    - yizhichangyuan
+  distractionFreeMode: true
+
+# 搜索
+aomori_search_algolia: true
+algolia:
+    applicationID: 'HJSTQHS8PQ'
+    apiKey: '1af8dce1713110d779f0514c752bf31c'
+    indexName: 'blog'
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: http://example.com
@@ -45,12 +117,12 @@ post_asset_folder: true
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  enable: false
+  # line_number: true
+  # auto_detect: false
+  # tab_replace: ''
+  # wrap: true
+  # hljs: false
 prismjs:
   enable: false
   preprocess: true
@@ -98,7 +170,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: hexo-theme-aomori
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
