@@ -13,6 +13,7 @@ timezone: ''
 
 # logo
 aomori_logo: /images/self-photo.jpeg
+favicon: /images/favicon.png
 
 # 站点标题动画
 aomori_logo_typed_animated: true
